@@ -7,8 +7,8 @@ export async function generateMetadata ({ params }) {
   const readableValue = contestedResources.getResourceValue(decodedValue)
 
   return {
-    title: `${readableValue} — Contested Resource — Dash Platform Explorer`,
-    description: `Detailed view of contested resource "${readableValue}" on the Dash Platform. Track current dispute status, masternode voting breakdown, creation date, and resolution outcome in the Dash Platform Explorer`,
+    title: `${readableValue} — Contested Resource — Explorer`,
+    description: `Detailed view of contested resource "${readableValue}" on the Dash Platform. Track current dispute status, masternode voting breakdown, creation date, and resolution outcome in the Explorer`,
     keywords: [
       'Dash',
       'platform',
@@ -24,7 +24,7 @@ export async function generateMetadata ({ params }) {
       'resource registry',
       'data contract'
     ],
-    applicationName: 'Dash Platform Explorer'
+    applicationName: 'Explorer'
   }
 }
 

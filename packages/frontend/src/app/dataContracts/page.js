@@ -7,10 +7,10 @@ import Cards from './Cards'
 import './DataContractsIntro.scss'
 
 export const metadata = {
-  title: 'Data Contracts — Dash Platform Explorer',
+  title: 'Data Contracts — Explorer',
   description: 'Data Contracts on Dash Platform. The Identifier, Date of Creation.',
   keywords: ['Dash', 'platform', 'explorer', 'blockchain', 'data contrancts', 'Datacontract', 'Identifier', 'Date of Creation'],
-  applicationName: 'Dash Platform Explorer'
+  applicationName: 'Explorer'
 }
 
 function DataContractsRoute ({ searchParams }) {

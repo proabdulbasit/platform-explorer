@@ -7,10 +7,10 @@ import { Container } from '@chakra-ui/react'
 import './ValidatorsIntro.scss'
 
 export const metadata = {
-  title: 'Validators — Dash Platform Explorer',
+  title: 'Validators — Explorer',
   description: 'All validators on Dash Platform. Statistics and status of validators on Dash Platform.',
   keywords: ['Dash', 'platform', 'explorer', 'blockchain', 'Validators'],
-  applicationName: 'Dash Platform Explorer'
+  applicationName: 'Explorer'
 }
 
 function ValidatorsRoute ({ searchParams }) {

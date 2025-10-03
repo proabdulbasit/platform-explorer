@@ -8,10 +8,10 @@ import {
 } from '@chakra-ui/react'
 
 export const metadata = {
-  title: 'API — Dash Platform Explorer',
+  title: 'API — Explorer',
   description: '',
   keywords: ['Dash', 'platform', 'explorer', 'blockchain', 'block', 'Timestamp', 'Transactions', 'Block'],
-  applicationName: 'Dash Platform Explorer'
+  applicationName: 'Explorer'
 }
 
 async function ApiRoute () {
@@ -28,7 +28,7 @@ async function ApiRoute () {
             _dark={{ color: 'white' }}
             className={'InfoBlock'}
         >
-            <Heading className={'InfoBlock__Title'} as={'h1'}>How to use Platform Explorer API</Heading>
+            <Heading className={'InfoBlock__Title'} as={'h1'}>How to use Explorer API</Heading>
             <Markdown>{content}</Markdown>
         </Container>
     </Container>

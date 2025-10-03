@@ -6,10 +6,10 @@ import { Container } from '@chakra-ui/react'
 import TransactionsHistory from '../../components/charts/TransactionsHistory'
 
 export const metadata = {
-  title: 'Transactions — Dash Platform Explorer',
+  title: 'Transactions — Explorer',
   description: 'Identities on Dash Platform. The Identifier, Date of Creation',
   keywords: ['Dash', 'platform', 'explorer', 'blockchain', 'Identities'],
-  applicationName: 'Dash Platform Explorer'
+  applicationName: 'Explorer'
 }
 
 function TransactionsRoute ({ searchParams }) {

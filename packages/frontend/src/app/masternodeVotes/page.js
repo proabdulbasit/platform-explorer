@@ -7,8 +7,8 @@ import MasternodeVotesDashboardCards from '../../components/contestedResources/M
 
 export async function generateMetadata () {
   return {
-    title: 'Masternode Votes — Dash Platform Explorer',
-    description: 'Explore current and historical masternode vote polls on the Dash Platform. View poll details, stake-weighted vote tallies, start and end dates, and final outcomes in the Dash Platform Explorer',
+    title: 'Masternode Votes — Explorer',
+    description: 'Explore current and historical masternode vote polls on the Dash Platform. View poll details, stake-weighted vote tallies, start and end dates, and final outcomes in the Explorer',
     keywords: [
       'Dash',
       'platform',
@@ -22,7 +22,7 @@ export async function generateMetadata () {
       'DPNS',
       'network'
     ],
-    applicationName: 'Dash Platform Explorer'
+    applicationName: 'Explorer'
   }
 }
 

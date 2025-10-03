@@ -7,7 +7,7 @@ import introContent from './intro.md'
 
 export async function generateMetadata () {
   return {
-    title: 'Contested Resources — Dash Platform Explorer',
+    title: 'Contested Resources — Explorer',
     description: 'Browse active contested resource disputes on the Dash Platform. View ongoing masternode vote tallies, dispute deadlines, and resolution history for contested resources in the Dash ecosystem',
     keywords: [
       'Dash',
@@ -23,7 +23,7 @@ export async function generateMetadata () {
       'resource registry',
       'data contract'
     ],
-    applicationName: 'Dash Platform Explorer'
+    applicationName: 'Explorer'
   }
 }
 
