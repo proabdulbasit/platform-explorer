@@ -1,0 +1,20 @@
+{
+  "name": "platform-explorer",
+  "version": "2.1.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-api": "yarn workspace api start",
+    "start-frontend": "yarn workspace frontend start",
+    "dev": "npm-run-all --parallel start next"
+  },
+  "author": "pshenmic <pshenmic@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "git@github.com:pshenmic/platform-explorer.git"
+}

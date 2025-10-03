@@ -1,0 +1,33 @@
+@use '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+.ValidatorsList {
+  &__ColumnTitles {
+    @include mixins.defListTitles;
+    display: grid;
+    grid-template-columns: auto 200px 200px;
+  }
+
+  &__ColumnTitle {
+    justify-content: flex-end;
+
+    &:first-child {
+      justify-content: flex-start;
+    }
+  }
+  
+  @media screen and (max-width: $breakpoint-lg) {
+    &__ColumnTitles {
+      grid-template-columns: auto 170px 170px;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-md) {
+    overflow-y: auto;
+
+    &__ContentContainer {
+      width: max-content;
+      min-width: 100%;
+    }
+  }
+}

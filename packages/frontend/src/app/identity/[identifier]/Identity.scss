@@ -1,0 +1,9 @@
+@use '../../../styles/mixins.scss';
+@import '../../../styles/variables.scss';
+
+.IdentityPage {
+  &__Alias {
+    width: max-content;
+    margin-left: auto;
+  }
+}

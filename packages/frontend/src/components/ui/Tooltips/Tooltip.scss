@@ -1,0 +1,22 @@
+@use '../../../styles/mixins.scss';
+@import '../../../styles/variables.scss';
+
+.Tooltip {
+  &__Title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.75rem;
+  }
+
+  &--Extended & {
+    &__Title {
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__Content {
+    color: #fff;
+    font-size: 0.688rem;
+  }
+}

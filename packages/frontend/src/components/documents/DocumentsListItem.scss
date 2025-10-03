@@ -1,0 +1,21 @@
+@use '../../styles/mixins.scss';
+@use './variables' as docs;
+@import '../../styles/variables.scss';
+
+.DocumentsListItem {
+  @include mixins.DefListItem;
+  display: block;
+
+  &__Content {
+    @include docs.Columns();
+  }
+
+  &__Column {
+    @include docs.Column();
+  }
+
+  &__ColumnContent {
+    margin-left: auto;
+    overflow: hidden;
+  }
+}
