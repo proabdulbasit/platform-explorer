@@ -1,10 +1,9 @@
 ## HTTP API
 
-Platform Explorer HTTP API allow you to query and see platform blockchain data programmatically with a REST interface via HTTP calls. You can use it to build, test, or improve your applications.
+Explorer HTTP API allow you to query and see platform blockchain data programmatically with a REST interface via HTTP calls. You can use it to build, test, or improve your applications.
 
 API is still under ongoing development, so refer to this page or repo documentation for the most up-to-date latest specification.
 
-Production (testnet) live URL is [https://platform-explorer.pshenmic.dev](https://platform-explorer.pshenmic.dev)
 
 Reference:
 

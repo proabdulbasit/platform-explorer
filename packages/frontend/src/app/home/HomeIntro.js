@@ -13,10 +13,10 @@ export default function HomeIntro () {
           Platform Explorer
         </Heading>
         <Heading as={'h2'} className={'HomeIntro__Subtitle'}>
-          The information resource about Dash Platform!
+          The information resource about Explorer
         </Heading>
         <Text className={'HomeIntro__Description'}>
-          Dive into the world of Dash Platform with Platform Explorer, your trusted portal for real-time and historical data across the blockchain ecosystem. Our platform offers a view of blockchain&apos;s continuous evolution, enabling you to track and verify transactions with confidence and precision.
+          Dive into the world of Dash Platform with Explorer, your trusted portal for real-time and historical data across the blockchain ecosystem. Our platform offers a view of blockchain&apos;s continuous evolution, enabling you to track and verify transactions with confidence and precision.
         </Text>
       </div>
 

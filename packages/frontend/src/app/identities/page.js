@@ -6,10 +6,10 @@ import { Container } from '@chakra-ui/react'
 import { TopIdentities } from '../../components/identities'
 
 export const metadata = {
-  title: 'Identities — Dash Platform Explorer',
+  title: 'Identities — Explorer',
   description: 'Identities on Dash Platform. The Identifier, Date of Creation',
   keywords: ['Dash', 'platform', 'explorer', 'blockchain', 'Identities'],
-  applicationName: 'Dash Platform Explorer'
+  applicationName: 'Explorer'
 }
 
 function IdentitiesRoute ({ searchParams }) {
